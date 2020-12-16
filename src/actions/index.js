@@ -24,3 +24,17 @@ export const changeFilter = filter => ({
   type: CHANGEFILTER,
   filter,
 });
+
+export const fetchCatsPending = () => ({
+  type: FETCH_PRODUCTS_PENDING,
+});
+
+export const fetchCatsSuccess = () => ({
+  type: FETCH_PRODUCTS_SUCCESS,
+  cats: cats,
+});
+
+export const fetchCatsError = () => ({
+  type: FETCH_CATS_ERROR,
+  error: error,
+})
