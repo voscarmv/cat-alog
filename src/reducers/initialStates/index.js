@@ -25,4 +25,6 @@ export const booksInitialState = {
   ],
 };
 
+export const catsInitialState = {};
+
 export const initialState = {};

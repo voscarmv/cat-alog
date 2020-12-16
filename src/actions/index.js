@@ -1,5 +1,5 @@
 import { v4 } from 'uuid';
-import { CREATEBOOK, REMOVEBOOK, CHANGEFILTER } from '../types';
+import { CREATEBOOK, REMOVEBOOK, CHANGEFILTER, FETCH_CATS_PENDING, FETCH_CATS_SUCCESS, FETCH_CATS_ERROR } from '../types';
 
 export const createBook = book => {
 /* eslint-disable global-require */
