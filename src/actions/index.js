@@ -26,11 +26,11 @@ export const changeFilter = filter => ({
 });
 
 export const fetchCatsPending = () => ({
-  type: FETCH_PRODUCTS_PENDING,
+  type: FETCH_CATS_PENDING,
 });
 
 export const fetchCatsSuccess = () => ({
-  type: FETCH_PRODUCTS_SUCCESS,
+  type: FETCH_CATS_SUCCESS,
   cats: cats,
 });
 
